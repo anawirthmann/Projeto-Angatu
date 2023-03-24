@@ -12,32 +12,46 @@ ul#album-fotos{
 
 ul#album-fotos li{
 	float: left;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	margin: 5px;
-	border: 5px solid white;
+	border: 5px solid rgba(255, 255, 255, 0.7);
 	background-color: white;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);	
 	-webkit-transition: all 0.3s ease-in;
 }
 
 
-ul#album-fotos li span {
-	text-align: center;
+ul#album-fotos li span#umsabor {
+	float: right;
+	margin-right: 100px;
 	opacity: 0;
 	color: white;
-	text-shadow: 1px 1px 1px #000000;
-	background-color: rgba(0, 0, 0, 0.3);
-	font-size: 9pt;
-	line-height: 370px;
-	padding: 5px;
+	text-shadow: 2px 2px 2px #000000;
+	font-size: 15pt;
+	line-height: 280px;
+	padding: 20px;
+
+}
+ul#album-fotos li span#doissabores {
+	float: right;
+	margin-right: 50px;
+	opacity: 0;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+	font-size: 12pt;
+	line-height: 280px;
+	padding: 20px;
+
 }
 
-ul#album-fotos li:hover {
-	-webkit-transform: scale(1.5);
-}
 
-ul#album-fotos li:hover span{
+
+ul#album-fotos li:hover span#doissabores{
+	opacity: 1;
+
+}
+ul#album-fotos li:hover span#umsabor{
 	opacity: 1;
 
 }
@@ -50,7 +64,7 @@ ul#album-fotos li#uva {
 }
 ul#album-fotos li#uva:hover{
 	background-position: 0% 0%;
-	background-size: 300px 300px;
+	background-size: 400px 400px;
 }
 
 ul#album-fotos li#maca {

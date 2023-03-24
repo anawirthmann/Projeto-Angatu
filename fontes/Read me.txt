@@ -1,0 +1,3 @@
+Only install "Bottle It - Central.otf" if you need to edit the style of the central characters in 
+a graphics program. If you're only using the bottle outline font with the background color 
+showing through, you only need to install "Bottled It.otf".

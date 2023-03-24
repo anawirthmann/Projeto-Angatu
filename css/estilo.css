@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+ font-family: 'bottled-it';
+ src: url("../fontes/bottled-it.otf");
+}
 	
 body {
 	font-family: Arial, sans-serif;
@@ -13,10 +16,17 @@ body {
 
 div#interface {
 	width: 1000px;
-	background-color: rgba(145,186,200,255);
-	margin: -15px auto 0px auto;
+	background-color: rgba(255, 255, 255, 0.85);
+	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 	padding: 2px;
+	border: 5px solid rgba(255, 255, 255, 0.85);
+	
+}
+
+div#iniciosite{
+	margin-bottom: 10px;
+	border-bottom: 5px solid rgba(255, 255, 255, 0.85);
 }
 
 p {
@@ -34,7 +44,7 @@ header#cabecalho {
 
 
 header#cabecalho h1 {
-	font-family: 'Fonte-logo', sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 18pt;
 	text-align: center;
 	color: white;
@@ -92,12 +102,13 @@ div.botaocompre {
 }
 
 .btn-white::after {
-    background-color: #fff;
+    background-color: #f027b6;
+   
 }
 
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+    opacity: 1;
 }
 
 .btn-animated {
@@ -117,13 +128,17 @@ div.botaocompre {
     }
 }
 
+div.sabores{
+	background: url("../imagens/backgroundfundo.png")  0px 0px;
+	padding: 0px;
+}
 
-div.corposite h2{
-	font-family: Arial, sans-serif;
-	font-size: 100pt;
-	color: white;
+div.sabores h2{
+	font-family: 'bottled-it', sans-serif;
+	font-size: 200pt;
+	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 	margin-top: -10px;
 	margin-bottom: 10px;
 
