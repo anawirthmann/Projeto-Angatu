@@ -49,7 +49,8 @@ header#cabecalhoindex h1 {
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-	padding: 0px;
+	padding: 30px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 div.botaocompre {
@@ -149,25 +150,26 @@ div.sabores h2{
 
 /* Formatação do menu */
 
+
 nav#menu ul {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 20px;
-	left: 722px;
+	top: 30px;
+	left: 530px;
 
 }
 
 nav#menu li {
 	display: inline-table;
-	background-color: #f027b6;
+	background-color: #f1d44c;
 	padding: 10px;
 	margin: 2px;
 	transition: background-color 1s;
 	border-radius: 10px;
 }
 nav#menu li:hover {
-	background-color: #f1d44c;
+	background-color: rgba(255, 255, 255, 0.85);
 }
 
 nav#menu h1 {
@@ -175,24 +177,15 @@ nav#menu h1 {
 }
 
 nav#menu a {
-	color: white;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 nav#menu a:hover {
-	color: #ffffff;
+	color: #606060;
+	
 }
-
-/* Formatacao do corpo/lateral/rodape/article */
-
-section#corpo {
-	display: block;
-	width: 450px;
-	float: left;
-	border-right: 1px solid #606060;
-	padding: 15px;
-}
-
+/* Formatacao do rodape*/
 
 
 footer#rodape {
